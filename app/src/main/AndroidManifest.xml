@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.widgets">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Auto_Complete_Text_View"></activity>
+        <activity android:name=".spinner" />
+        <activity android:name=".Switch1" />
+        <activity android:name=".button" />
+        <activity android:name=".Text_View" />
+        <activity android:name=".Adapter_View_Flipper" />
+        <activity android:name=".Image_Switcher" />
+        <activity android:name=".Text_Switcher" />
+        <activity android:name=".Image_View" />
+        <activity android:name=".Checked_Text_View" />
+        <activity android:name=".Multi_Auto_Complete_Text_View" />
+        <activity android:name=".Rating_Bar" />
+        <activity android:name=".Seek_Baar" />
+        <activity android:name=".Progress_Bar" />
+        <activity android:name=".Toggle_Button" />
+        <activity android:name=".Check_Box" />
+        <activity android:name=".Radio_Button" />
+        <activity android:name=".Image_Button" />
+        <activity android:name=".Edit_Text" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

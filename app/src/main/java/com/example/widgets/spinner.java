@@ -20,7 +20,7 @@ public class spinner extends AppCompatActivity {
         setContentView(R.layout.activity_spinner);
         spinner = findViewById(R.id.spinner);
 
-        final String spnvalues[] = {" Button", " TextView", " EditText", " ImageButton", " RadioButton",
+        final String[] spnvalues = {" Button", " TextView", " EditText", " ImageButton", " RadioButton",
                 " CheckBox", " ToggleButton", " Switch", " ProgressBar", " SeekBar",
                 " RatingBar", " Spinner", " AutoCompleteTextView", " MultiAutoCompleteTextView",
                 " CheckedTextView", " ImageView", " TextSwitcher", " ImageSwitcher", " AdapterViewFlipper"};
